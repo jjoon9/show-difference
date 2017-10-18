@@ -1,440 +1,687 @@
 
 <!DOCTYPE HTML>
-<!--
-	Polymorph by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
-	<head>
-		<title>LINK AUTO - 자동차 전문가와 연결하다</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/scrollanim.css"/>
-		
-	</head>
-	<body>
-		<!-- Wrapper -->
-		<div id="wrapper">
+<head>
+    <title>LINK AUTO - 자동차 전문가와 연결하다</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../static/css/link-auto-main.css"/>
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-			<header id="header">
-				<div class="title-logo">
-					<a href="index.html" class="title"> 
-						<img id="nav-logo" src="images/logo.png"/>
-					</a>
-				</div>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">홈</a></li>
-						<li>
-							<a href="#" class="dropdown">특별 상품</a>
-							<ul>											
-								<li><a href="hotdeal.html">HOT DEAL</a></li>
-								<li><a href="ranking.html">RANKING</a></li>
-							</ul>
-						</li>									
-						<li><a href="estimate.html">견적 요청</a></li>
-						<li><a href="sell.html">내 차 팔기</a></li>
-						<li><a href="direct.html">다이렉트 보험</a></li>
-					</ul>
-				</nav>
-			</header>
+</head>
+<body>
+<!-- Wrapper -->
+<div id="wrapper">
 
-			<!-- <section id="banner">
-				<article class="full full-expanded" >
-					<img src="images/bg_main.png"/>
-					<div class="content">
-						<img id="main-logo-image" src="images/logo_white.png" />
-						<br/><br/>
-						<h3>자동차 브랜드, 자동차 금융 전문가와</h3>
-						<h2>연결하다</h2>
-						<br>
-						<ul class="actions">
-							<li>
-								<a href="왜여기로올까" class="button">
-									<span class="main-box-text"> 
-										<span class="fa fa-android"></span> 	
-										&nbsp;&nbsp;안드로이드 앱
-									</span>
-								</a>
-							</li>
-						</ul>						
-					</div>
-				</article>
-			</section> -->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html" class="title">
+                <img id="nav-logo" src="../media/images/logo.png"/>
+            </a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li>
+                    <a href="#" class="dropdown">특별 상품</a>
+                    <ul>
+                        <li><a href="hotdeal.html">HOT DEAL</a></li>
+                        <li><a href="ranking.html">RANKING</a></li>
+                    </ul>
+                </li>
+                <li><a href="estimate.html">견적 요청</a></li>
+                <li><a href="sell.html">내 차 팔기</a></li>
+                <li><a href="direct.html">다이렉트 보험</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
-			<!-- carousel -->
-			<section id="scroll-banner" >
-				<article class="full">
-					<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <!-- carousel -->
+    <section id="scroll-banner">
+        <article class="full">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
 
-					  <ol class="carousel-indicators">
-					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-					  </ol>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                    
+                    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                    
+                    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                    
+                    <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                    
 
-					  <div class="carousel-inner" role="listbox">
-					    <div class="carousel-item active" 
-					    	 style="background-image: url(images/bg_2.jpg);">
-							<div class="black-back item-container center-container" >
-					      		<div class="center-content ">
+                    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+                </ol>
+
+
+                <div class="carousel-inner" role="listbox">
+                    
+                        <div class="item carousel-item
+                        
+                        active
+                        "
+                             style="background-image: url('./media/media/f738d544-dc35-43ac-d-20170920061003/car11_3ej6eZ6.jpg');">
+                            <div class="black-back item-container center-container">
+
+                                <div class="center-content ">
 									<!-- <p class="white-box"> -->
-									<img src="images/logo_semi_white.png" width="300em" style="display:inline"/><br><br>
-						      		<span id="banner1-span2">낡은 방식을 버리고  편리함으로<br>
+									<img src="../media/images/logo_semi_white.png" width="300em" style="display:inline"/><br><br>
+						      		<h2><span id="banner1-span2">낡은 방식을 버리고  편리함으로<br>
 						      		자동차 구매 시장의 중심이 됩니다.</span><br><br>						      		
 						      		<span id="banner1-span3">링크오토는 자동차 구매에 필요한 딜러&amp;금융의 모든 전문가를<br>
-									사용자 입장에서 간편하게 연결해주는 서비스입니다.</span><br>
+									사용자 입장에서 간편하게 연결해주는 서비스입니다.</span><h2><br>
 									<!-- </p> -->
 					      		</div>
-					      	</div>					      	
-					    </div>
-					    <div class="carousel-item" 
-					    	 style="background-image: url(images/bg_main.png);">
-							<div class="black-back item-container center-container" >
-					      		<div class="center-content ">									
-					      			<!-- <div class="white-box"> -->
-									<span class="fa fa-android" style="opacity: 0.85;font-size:15em; color: #efefef"></span>
-									<br/><br/>
-									<!-- <h3 style="color:white !important">자동차 브랜드, 자동차 금융 전문가와</h3>
-									<h2 style="color:white !important">연결하다</h2> -->
-									 <h2 style="color:white !important; line-height: 150%;">링크오토의 모든 서비스를<br>이제 모바일에서도 경험해 보세요!</h2>
-									<br>
-									<ul class="actions">
-										<li>
-											<a href="https://play.google.com/store/apps/details?id=com.robusterlab.autolink" class="button">
-												<span class="main-box-text" style="color:white"> 
-														
-													<img src="images/play_store.png" style="width:1.5em"/> Play 스토어 바로가기
-												</span>
-											</a>
-										</li>
-									</ul>	
-									<!-- </div> -->
-					      		</div>
-					      	</div>					      	
-					    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item carousel-item
+                        "
+                             style="background-image: url('./media/media/5c967880-2967-4c4b-3-20170920060930/car6_EPDwZdx.jpeg');">
+                            <div class="black-back item-container center-container">
 
-					    <div class="carousel-item" 
-					    	 style="background-image: url(images/car6.jpeg);">
-							<div class="black-back item-container center-container" >
-					      		<div class="center-content ">
-									<p class="white-box">
+                                <div class="center-content ">
+									<h2><p class="white-box">
 					      			국산차 살 때<br>
 						      		<span class="span1">카드</span>로 사고<br>
 						      		<span class="span2">캐쉬백</span>도 받자!
 						      		<br>
-						      		<a href="#" class="button" id="box">
+						      		<a href="http://ssamsamwook.cafe24.com/banner2/" class="button" id="box">
 						      			<span class="box-text">
 						      			자세히 보기
 						      			</span>
 
 									</a>
 						      		</p>
+</h2>
 						      	</div>
-						    </div>
-					    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item carousel-item
+                        "
+                             style="background-image: url('./media/media/4530047f-d721-406e-2170920060913/car9_AvztgGl.jpg');">
+                            <div class="black-back item-container center-container">
 
-						<div class="carousel-item" 
-					    	 style="background-image: url(images/car8.jpeg);">
-							<div class="black-back item-container center-container" >
-					      		<div class="center-content ">
-									<p class="white-box"> 
+                                <div class="center-content "><h2>
+									<p class="white-box">
 						      		제 1 금융권<br>
 						      		<span class="pale-red">부담제로</span> <span class="pale-green">1Q 오토론</span>
-						      		<br>						      		
-						      		<a href="#" class="button" id="box">
+						      		<br>
+						      		<a href="http://ssamsamwook.cafe24.com/banner1/" class="button" id="box">
 						      			<span class="box-text">
 						      			자세히 보기
 						      			</span>
 									</a>
-						      		</p>
+						      		</p></h2>
 						      	</div>
-						    </div>						    
-					    </div>
+                            </div>
+                        </div>
+                    
+                    <div class="item carousel-item"
+                         style="background-image: url('../media/images/bg_main.png');">
+                        <div class="black-back item-container center-container">
+                            <div class="center-content ">
+                                <!-- <div class="white-box"> -->
+                                <span class="fa fa-android" style="opacity: 0.85;font-size:15em; color: #efefef"></span>
+                                <br/><br/>
+                                <h2 style="color:white !important; line-height: 150%;">링크오토의 모든 서비스를<br>이제 모바일에서도 경험해
+                                    보세요!</h2>
+                                <br>
+                                <ul class="actions">
+                                    <li>
+                                        <a href="https://play.google.com/store/apps/details?id=com.robusterlab.autolink"
+                                           class="button">
+												<span class="main-box-text" style="color:white">
+													<img src="../media/images/play_store.png" style="width:1.5em"/> Play 스토어 바로가기
+												</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
 
 
-					  </div>
+                <a class="left carousel-control" href="#carouselIndicators" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carouselIndicators" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
 
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
-					  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
+            </div>
+        </article>
+    </section>
+</div>
+<div class="container">
 
-					  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					  </a>
+    <div id="main">
+        <section id="top-banners" class="row">
+            <article class="col-md-12">
+                <a href="estimate.html">
+                    <img src="../../media/images/banner_estimate_car.jpg" width="100%" alt="" data-position="center"/>
+                </a>
+            </article>
+        </section>
+        <section id="hot-deal" class="main">
+            <h2 class="main-section-title"><span class="bolder">|</span> 핫딜 링크<a href="hotdeal.html"><span class="more">더 보기 <span
+                    class="fa fa-angle-right"/>&nbsp;&nbsp;</span></a></h2>
 
-					</div>
-				</article>
-			</section>
-		</div>
-		<div class="container" id="#index-page">
-			
-			<div id="main">				
-				<section id="hot-deal" class="main" >
-					<a href="hotdeal.html"><h2 class="main-section-title"><span class="bolder">|</span> 핫딜 링크<span class="more" >더 보기 <span class="fa fa-angle-right"/>&nbsp;&nbsp;</span></h2></a>
+            <div class="posts">
 
-					<div class="posts">
+                
+                    <article class="item scale_animation">
+                        <div>
+                            <a href="hestimate3.html?id=10">
+                                <div class="image car-image"
+                                     style="background-image: url(http://linkauto.co.kr/media/media/4c98aec3-622f-4aaa-91dc-2b7194a1f1b8-201710172532/22222.png);
+                                             ">
+                                    <img class="logo-image" src="http://linkauto.co.kr/media/media/8ad02686-7d24-4653-b5e053/%EC%89%90%EB%B3%B4%EB%A0%88.png"/>
+                                    <div class="discount-rate">23% <span class="small">할인</span></div>
+                                </div>
+                            </a>
+                            <h2>
+                                쉐보레 임팔라 3.6 LTZ
+                            </h2>
 
-						<article class="item">
-						<div data-kui-anim="zoomIn" data-kui-event="partially">							
-							<a href="estimate3.html?id=111" >
-								<div class="image car-image" 
-								 style="background-image: url(images/car0.png);									
-										">
-									<img class="logo-image" src="images/brands/벤츠.png"/> 
-									<div class="discount-rate">12% <span class="small">할인</span></div>
-								</div>
-							</a>												
-							<h2>								
-								아우디 	A8 KM-S100 Sword Master
-							</h2>
-							
-							<p class="price-original">14,730만원</p>
-							<p class="price-actual">12,000만원</p>	
-							<footer>
-								<ul class="actions">
-									<li><a href="estimate3.html?id=111" class="button">자세히 보기</a></li>
-								</ul>
-							</footer>
-						</div>
-						</article>
-						
-						<article class="item">
-						<div data-kui-anim="zoomIn" data-kui-event="partially">								
-							<a href="estimate3.html?id=111" >
-								<div class="image car-image" 
-								 style="background-image: url(images/car0.png);									
-										">
-									<img class="logo-image" src="images/brands/bmw.png"/> 
-									<div class="discount-rate">12% <span class="small">할인</span></div>
-								</div>
-							</a>												
-							<h2>								
-								BMW 7 Series M760LI XDrive (17년식)
-							</h2>
-							
-							<p class="price-original">14,730만원</p>
-							<p class="price-actual">12,000만원</p>	
-							<footer>
-								<ul class="actions">
-									<li><a href="estimate3.html?id=111" class="button">자세히 보기</a></li>
-								</ul>
-							</footer>
-						</div>
-						</article>
-				</section>
-				<hr>
-				<section id="ranking" class="main" >
-					<a href="ranking.html"><h2 class="main-section-title"><span class="bolder">|</span> 링크 순위<span class="more" >더 보기 <span class="fa fa-angle-right"/>&nbsp;&nbsp;</span></h2></a>
-					<div class="ranking-item-container row">	
+                            <p class="price-original">4,546만원</p>
+                            <p class="price-actual">3,545만원</p>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="hestimate3.html?id=10" class="button">자세히 보기</a></li>
+                                </ul>
+                            </footer>
+                        </div>
+                    </article>
 
-						<article class="rank-item col-md-4 col-sm-12 col-xs-12">
-						<a href="estimate2.html?page=12#아이템번호" class="link-anchor ">
-							<div class="item-image"
-							 style="background: url(images/car.jpeg);">
+                
+                    <article class="item scale_animation">
+                        <div>
+                            <a href="hestimate3.html?id=9">
+                                <div class="image car-image"
+                                     style="background-image: url(http://linkauto.co.kr/media/media/94d8344e-e8a8-4aa1-9ea8-ed37d781532d-201710170505/22222.png);
+                                             ">
+                                    <img class="logo-image" src="http://linkauto.co.kr/media/media/8ad02686-7d24-4653-b5e053/%EC%89%90%EB%B3%B4%EB%A0%88.png"/>
+                                    <div class="discount-rate">22% <span class="small">할인</span></div>
+                                </div>
+                            </a>
+                            <h2>
+                                쉐보레 임팔라 2.5 LT
+                            </h2>
+
+                            <p class="price-original">3,587만원</p>
+                            <p class="price-actual">2,797만원</p>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="hestimate3.html?id=9" class="button">자세히 보기</a></li>
+                                </ul>
+                            </footer>
+                        </div>
+                    </article>
+
+                
+            </div>
+        </section>
+        <hr>
+        <section id="ranking" class="main">
+            <a href="ranking.html"><h2 class="main-section-title"><span class="bolder">|</span> 링크 순위<span class="more">더 보기 <span
+                    class="fa fa-angle-right"/>&nbsp;&nbsp;</span></h2></a>
+            <div class="ranking-item-container row">
+                
+
+                    <article class="rank-item col-md-4 col-sm-12 col-xs-12 scale_animation">
+                        <a href="estimate2.html" class="link-anchor ">
+                            <div class="item-image"
+                                 style="background: url(http://linkauto.co.kr/media/media/ddbf3096-b106-499e-a8f8-8f02041de2f0-20170919141931/%EA%B5%AD%EC%82%B0%EC%B0%A8%EA%B8%B0%EC%95%84%EC%8F%98%EB%A0%8C%ED%86%A0_ILL68GC.png);">
 							 	<span class="rank-number">
 							 		1 위
 							 	</span>
-							 	<img class="logo-image" src="images/brands/기아.png" width="48px" height="48px"/> 
-							 	<p class="item-price">
-							 		12,200만원 ~ 13,250만원
-							 	</p>
-							</div>
-							<div class="item-info-container row">
-								<div class="item-name col-md-12">	
-									<h4>																	
-										K3
-									</h4>
-								</div>
+                                <img class="logo-image" src="http://linkauto.co.kr/media/media/f462d314-fa9f-45ad1ae/%EA%B8%B0%EC%95%84.png" width="48px" height="48px"/>
+                                <p class="item-price">
+                                    2,785만원 ~ 3,425만원
+                                </p>
+                            </div>
+                            <div class="item-info-container row">
+                                <div class="item-name col-md-12">
+                                    <h4>
+                                        기아 쏘렌토
+                                    </h4>
+                                </div>
 
-							</div>
-						</a>				
-						</article>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
 
-						<article class="rank-item col-md-4 col-sm-12 col-xs-12">
-						<a href="estimate2.html?page=12#아이템번호" class="link-anchor ">
-							<div class="item-image"
-							 style="background: url(images/car0.png);">
+                    <article class="rank-item col-md-4 col-sm-12 col-xs-12 scale_animation">
+                        <a href="estimate2.html" class="link-anchor ">
+                            <div class="item-image"
+                                 style="background: url(http://linkauto.co.kr/media/media/9002eee7-016f-4238-b6d0-79d6b4ee7070-20170919141953/%EA%B5%AD%EC%82%B0%EC%B0%A8%ED%98%84%EB%8C%80%EC%95%84%EB%B0%98%ED%85%8C_bdeBwxG.png);">
 							 	<span class="rank-number">
 							 		2 위
 							 	</span>
-							 	<img class="logo-image" src="images/brands/랜드로버.png" width="48px" height="48px"/> 
-							 	<p class="item-price">
-							 		12,200만원 ~ 13,250만원
-							 	</p>
-							</div>
-							<div class="item-info-container row">
-								<div class="item-name col-md-12">	
-									<h4>																	
-										레인지로버 굿굿차
-									</h4>
-								</div>
+                                <img class="logo-image" src="http://linkauto.co.kr/media/media/67ce42c8-871e-4e8a-badf-eff91126ae63-20170919141947/%ED%98%84%EB%8C%80_RoU1YMI.png" width="48px" height="48px"/>
+                                <p class="item-price">
+                                    1,570만원 ~ 2,460만원
+                                </p>
+                            </div>
+                            <div class="item-info-container row">
+                                <div class="item-name col-md-12">
+                                    <h4>
+                                        현대 아반테
+                                    </h4>
+                                </div>
 
-							</div>
-						</a>				
-						</article>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
 
-						<article class="rank-item col-md-4 col-sm-12 col-xs-12">
-						<a href="estimate2.html?page=12#아이템번호" class="link-anchor ">
-							<div class="item-image"
-							 style="background: url(images/car.jpeg);">
+                    <article class="rank-item col-md-4 col-sm-12 col-xs-12 scale_animation">
+                        <a href="estimate2.html" class="link-anchor ">
+                            <div class="item-image"
+                                 style="background: url(http://linkauto.co.kr/media/media/3cae7161-020c-444e-b9cf-c14cfe942a53-20170919141949/%EA%B5%AD%EC%82%B0%EC%B0%A8%ED%98%84%EB%8C%80%EA%B7%B8%EB%9E%9C%EC%A0%B8ig_nPJQmZH.png);">
 							 	<span class="rank-number">
 							 		3 위
 							 	</span>
-							 	<img class="logo-image" src="images/brands/아우디.png" width="48px" height="48px"/> 
-							 	<p class="item-price">
-							 		12,200만원 ~ 13,250만원
-							 	</p>
-							</div>
-							<div class="item-info-container row">
-								<div class="item-name col-md-12">	
-									<h4>																	
-										K3
-									</h4>
-								</div>
+                                <img class="logo-image" src="http://linkauto.co.kr/media/media/67ce42c8-871e-4e8a-badf-eff91126ae63-20170919141947/%ED%98%84%EB%8C%80_RoU1YMI.png" width="48px" height="48px"/>
+                                <p class="item-price">
+                                    2,620만원 ~ 4,160만원
+                                </p>
+                            </div>
+                            <div class="item-info-container row">
+                                <div class="item-name col-md-12">
+                                    <h4>
+                                        현대 그랜져ig
+                                    </h4>
+                                </div>
 
-							</div>
-						</a>				
-						</article>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
 
-						<!-- <article class="rank-item col-md-4 col-sm-12 col-xs-12">
-						<a href="estimate3.html?id=5124" class="link-anchor ">
-								<div class="item-image"
-								 style="background: url(images/car.jpeg) no-repeat center center;
-								 		background-size:cover;">
-								 	<span class="rank-number">
-								 		3 위
-								 	</span>
-								 	<img class="logo-image" src="images/brands/bmw.png" width="48px" height="48px" / style="float:right;"> 
-								 	<div class="item-name">
-											<span class="rank-brand-temp" >기아 K3</span>
-									</div>
-								</div>
-								<div class="item-info-container row">
-									<div class="col">
-										　
-									</div>
-									
-
-									<div class="item-price col">
-										<span class="small2">2,200<span class="small2">만원까지</span></span><br><span class="big">1,545만원<span class="small">부터</span></span>
-									</div>
-								</div>
-						</a>				
-						</article> -->
+                <!-- <article class="rank-item col-md-4 col-sm-12 col-xs-12">
+                <a href="estimate3.html?id=5124" class="link-anchor ">
+                        <div class="item-image"
+                         style="background: url(images/car.jpeg) no-repeat center center;
+                                 background-size:cover;">
+                             <span class="rank-number">
+                                 3 위
+                             </span>
+                             <img class="logo-image" src="images/brands/bmw.png" width="48px" height="48px" / style="float:right;">
+                             <div class="item-name">
+                                    <span class="rank-brand-temp" >기아 K3</span>
+                            </div>
+                        </div>
+                        <div class="item-info-container row">
+                            <div class="col">
+                                　
+                            </div>
 
 
+                            <div class="item-price col">
+                                <span class="small2">2,200<span class="small2">만원까지</span></span><br><span class="big">1,545만원<span class="small">부터</span></span>
+                            </div>
+                        </div>
+                </a>
+                </article> -->
 
 
+            </div>
+        </section>
 
 
-					</div>
-				</section>
+        <hr>
+        <section id="bottom-banners" class="row">
+            <article class="col-md-6">
+                <a href="direct.html">
+                    <img src="../../media/images/banner_direct.png" width="100%" alt="" data-position="center"/>
+                </a>
+            </article>
+            <article class="col-md-6">
+                <a href="partnership.html">
+                    <img src="../media/images/banner_partnership.png" width="100%" alt="" data-position="center"/>
+                </a>
+            </article>
+        </section>
 
 
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="copyright">
+        <p>&copy; Link-Auto All rights reserved. </p>
+    </div>
+</footer>
 
 
+<!-- Scripts -->
 
-				
-				<hr>
-				<section id="bottom-banners" class="row">
-					<article class="col-md-6" >
-						<a href="direct.html">
-						<img src="images/banner_direct.png" width="100%" />
-						</a>
-					</article>
-					<article class="col-md-6" >
-						<a href="partnership.html">
-						<img src="images/banner_partnership.png" width="100%"  />
-						</a>
-					</article>
-				</section>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="../static/js/jquery.dropotron.min.js"></script>
+<script src="../static/js/skel.min.js"></script>
+<script src="../static/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+
+<script src="../static/js/link-auto-main.js"></script>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
-
-
-			
-
-			</div>
-		</div>
-
-		<footer id="footer">
-			<div class="copyright">
-				<p>&copy; Link-Auto All rights reserved. </p>
-			</div>
-		</footer>
-
-
-
-		<!-- Scripts -->
-		<script
-			  src="https://code.jquery.com/jquery-3.2.1.js"
-			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-			  crossorigin="anonymous"></script><!-- 
-		<script src="assets/js/jquery.min.js"></script> -->
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/scrollanim.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
-<!-- 
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	</body>
+</body>
 </html>
 
 
+<!-- 		<section id="banner">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					<!-- 		<section id="banner">
-								
-						<article class="half">
-							<img src="images/car2.jpg" alt="" data-position="center" />
-							<div class="content">
-								<h2><a href="#">Hot deal</a></h2>
-								<p>현재 가장 Hot한 차량을 만나보세요.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Full Story</a></li>
-								</ul>
-							</div>
-						</article>
+    <article class="half">
+        <img src="images/car2.jpg" alt="" data-position="center" />
+        <div class="content">
+            <h2><a href="#">Hot deal</a></h2>
+            <p>현재 가장 Hot한 차량을 만나보세요.</p>
+            <ul class="actions">
+                <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+        </div>
+    </article>
 -->
-					<!-- Three -->
+<!-- Three -->
 <!-- 							<article class="half">
 							<img src="images/car3.jpg" alt="" data-position="center" />
 							<div class="content">
@@ -448,26 +695,26 @@
 
 				</section> -->
 
-				<!-- Banner -->
+<!-- Banner -->
 
-					<!-- Post -->
-						<!-- <section class="main special">
-							<div class="inner">
-								<header class="major">
-									<span class="category">In Depth</span>
-									<h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
-									<ul class="meta">
-										<li>3 days ago</li>
-										<li><a href="#" class="favorites">2,174</a></li>
-										<li><a href="#" class="comments">1,423</a></li>
-									</ul>
-								</header>
-								<a href="#" class="image main"><img src="images/pic04.jpg" alt="" /></a>
-								<p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</footer>
-							</div>
-						</section> -->
+<!-- Post -->
+<!-- <section class="main special">
+    <div class="inner">
+        <header class="major">
+            <span class="category">In Depth</span>
+            <h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
+            <ul class="meta">
+                <li>3 days ago</li>
+                <li><a href="#" class="favorites">2,174</a></li>
+                <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+        </header>
+        <a href="#" class="image main"><img src="images/pic04.jpg" alt="" /></a>
+        <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
+        <footer>
+            <ul class="actions">
+                <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+        </footer>
+    </div>
+</section> -->
