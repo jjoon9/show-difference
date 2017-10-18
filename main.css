@@ -84,7 +84,7 @@
 	}
 
 	.row > * {
-		/*float: left;*/
+		float: left;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -3186,13 +3186,7 @@
 	.posts > article {
 		border-color: #dbdbdb;
 	}
-pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
+
 
 /* Header */
 
@@ -3215,7 +3209,6 @@ pre {
 		width: 100%;
 		z-index: 10000;
 		background-color: #ffffff;
-		font-size: 1.18em!important;
 		height: 4em;
 		line-height: 4em;
 		box-shadow: inset 0 -1px 0 0 #dbdbdb;
@@ -4483,7 +4476,7 @@ section#car-select h2{
 
 
 #estimate-top-banner{
-	background-image: url('../../media/images/car1.png') !important;
+	background-image: url('../../images/car1.png') !important;
 }
 
 
@@ -4528,12 +4521,12 @@ p.price{
 }
 
 section#hot-deal .item > div:hover{
-	transition: all .1s ease-in-out;
+	transition: all .2s ease-in-out;
 	transform: scale(1.1);
 
 }
 section#hot-deal .item > div{
-	transition: all .1s ease-in-out;
+	transition: all .2s ease-in-out;
 	transform: scale(1);
 
 }
@@ -4550,7 +4543,7 @@ section#hot-deal a{
 	position: relative;
 
 	background-repeat: no-repeat !important;
-	background-size: cover !important;
+	background-size: contain !important;
 	background-position: center center !important;
 
 	border-radius: 4px;	
@@ -4738,7 +4731,7 @@ p.bigger{
 	height: 100%;
 }
 .black-back{
-	background-color: rgba(22, 22, 22, 0.35);
+	background-color: rgba(22, 22, 22, 0.65);
 }
 .center-container > p{
 	display: inline-block !important;
@@ -5018,10 +5011,10 @@ span.box-text{
 
 
 img#nav-logo{
-	width: 96px;
+	width: 6rem;
 	height: auto;
-	margin-left: 20px;
-	margin-bottom: 10px;
+	margin-left: .75rem;
+	padding-bottom: .25rem;
 }
 
 #detail-estimate-form label.label-title{
@@ -5394,18 +5387,5 @@ div.half-br{
 	font-weight: bolder;
 	font-size: 1.5em;
 	text-align: middle;
-
-
-}
-
-
-.scale_animation{
-	transform: scale(0.5);
-	-webkit-transition-duration: 1s; /* Safari */
-	transition-duration: 1s;
-}
-.show_animation{
-	transform: scale(1);
-	-webkit-transition-duration: 1s; /* Safari */
-	transition-duration: 1s;
+	
 }
